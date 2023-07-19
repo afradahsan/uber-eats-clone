@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    height: 2500px;
+}
+
+.bg-image-class{
+    /* position: absolute; */
+}
+
+.above-text{
+    background: url("https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png");
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.bg-image{
+    margin-right: 0;
+    margin-left: 0;
+    background-size: cover;
+    width: 1465px;
+    height: 753px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-style: none;
+    border-radius: 25px;
+    /* box-shadow: 1.5px 1px 1.5px 1px rgba(0, 0, 0, 0.326); */
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    margin-left: 1230px;
+    margin-top: -40px;
+    width: 100px;
+    height: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: rgb(210, 210, 210);
+    box-shadow: 1.5px 1px 1.5px 1px rgba(0, 0, 0, 0.326);
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 25px;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 1340px;
+    margin-top: -49px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.signup:hover{
+    background-color: rgb(49, 49, 49);
+    box-shadow: 1.5px 1px 1.5px 1px rgba(0, 0, 0, 0.326);
+}
+
+.header-title{
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    padding-left: 0px;
+    font-size: 30px;
+    padding-top: 28px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.menu-bar{
+    width: 25px;
+    position: relative;
+    padding-left: 45px;
+    padding-right: 30px;
+}
+
+.mid-text{
+    position: relative;
+    font-family: "Poppins",sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.search-bar-grid{
+    position: relative;
+    padding-left: 30px;
+    display: flex;  
+    justify-content: space-between;
+    margin-right: 600px;
+}
+
+.search-bar {
+    position: relative;
+    width: 550px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0px;
+    border-color: white;
+    padding-left: 8px; 
+    
+}
+.search-bar:active{
+    border: none;
+    border-style: inset;
+}
+.find-food-button{
+    position: relative;
+    margin-left: 10px;
+    width: 110px;
+    height: 52px;
+    padding-left: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-style: none; 
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    white-space: nowrap;
+}
+.location{
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+}
+.location-button{
+    position: relative;
+    width: 40px;
+    height: 52px;
+    border-style: none;
+    background-color: white;
+}
+
+.deliver-now-button{
+    width: 220px;
+    background-color: white;
+    border-style: none;
+    height: 52px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .click-button{
+    margin-top: 60px;
+    margin-left: -191px;
+    display: inline-block;  
+    border-style: none;
+    background-color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    padding-top: -5px;
+    width: 221px;
+    height: 80px;
+    opacity: 0;
+}
+
+.click-button:active{
+    margin-top: 60px;
+    margin-left: -191px;
+    display: inline-block;  
+    border-style: none;
+    background-color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    padding-top: -5px;
+    width: 221px;
+    height: 80px;
+    opacity: 1;
+} */ 
+
+
+.deliver-now{
+    width: 30px;
+    padding-right: 5px;
+}
+
+.sign-in-under{
+    display: inline ;
+    position: relative;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-left: 40px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.employees img{
+    margin-top: 50px;
+    width: 450px;
+    margin-left: 35px;
+}
+
+.image-text{
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 27px;
+    margin-top: 8px;
+    font-weight: 550;
+    margin-left: 35px;
+    position: relative;
+}
+
+.sub-text{
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sub-text a{
+    color: black;
+}
+
+.Map{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Map-Title{
+    margin-top: 70px; 
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: 35px;
+    position: relative;
+}
+
+.Map-Title-Side{
+    margin-top: 70px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-left: 35px;
+    position: relative;
+}
+
+.Map-Title-Side a{
+    color: black;
+}
+
+.map-nav{
+    width: 97%;
+    margin-left: 35px;
+
+}
+
+.place-list{
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 250px;
+}
+
+.list{
+    list-style: none;
+    line-height: 58px;
+}
+
+.footer{
+    border:1px solid rgba(53, 53, 53, 0.29);
+    border-right: 0;
+    border-left: 0;
+    display: flex;
+}
+.footer-title{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: "Poppins", sans-serif;   
+}
+
+.app-store{
+    margin-top: 190px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width:  150px;
+}
+.play-store{
+    margin-left: 30px;
+    width:  50px;
+    margin-top: 285px;
+}
+.play-store img{
+    width: 150px;
+}
+
+.footer-list{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    list-style: none;
+    line-height: 45px;
+    font-family: "poppins", sans-serif;
+}
+.below-footer{
+    display: flex
+}
+
+.below-footer-text{
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-left: 302px;
+    margin-top: 0px;
+}
